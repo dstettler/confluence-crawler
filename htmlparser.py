@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+import json
 
 class Parser(HTMLParser):	
 	tableDict = {}
@@ -11,7 +12,14 @@ class Parser(HTMLParser):
 	currentDataHeader = 0
 
 	def end_table(self):
-		print(self.tableDict)
+		tableStr = json.dumps(self.tableDict)
+		try:
+			with open('tables.json', 'a') as outputFile:
+				outputFile.write(tableStr + ',\n')
+		except:
+			with open('tables.json', 'w') as outputFile:
+				newStr = f'{{\n{tableStr},\n'
+				outputFile.write(newStr)
 		self.tableDict = {}
 		self.headerList = []
 	
