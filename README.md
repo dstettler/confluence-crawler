@@ -2,6 +2,7 @@
 
 ### Setup
 - Run `pip install pipenv` if you do not already have `pipenv` installed.
+- Run `pipenv install` to install all of the dependencies (listed at the bottom)
 - Run `pipenv shell` to enter the shell
 - Run `python main.py` to run the program.
 
@@ -29,5 +30,8 @@ When you run the script, everything you need will be put into `tables.json`.
 It's as easy as that! (＊^▽^＊)
 
 #### A note:
-This was made with Python 3.7.2, so while this *should* work with any Python 3 client,
+This was made and tested with Python 3.7.2 and up, so while this *should* work with any Python 3 client,
 I haven't tested it with anything else, so if it doesn't don't yell at me please. :)
+
+### Dependencies
+- `requests`
