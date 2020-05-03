@@ -24,6 +24,8 @@ The program requires two differnet files to actually run:
 
 Just drop these two in the base directory and that's all you need to run.
 
+When you run the script, everything you need will be put into `tables.json`.
+
 It's as easy as that! (＊^▽^＊)
 
 #### A note:
