@@ -10,7 +10,7 @@ with open('pages.csv', 'r') as pagesFile:
 		pages.append(item)
 
 authDetails = {}
-with open('authDetails.json') as authFile:
+with open('authDetails.json', 'r') as authFile:
 	fileString = authFile.read()
 	authDetails = json.loads(fileString)
 
