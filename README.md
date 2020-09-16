@@ -6,7 +6,7 @@
 - Run `pipenv shell` to enter the shell
 - Run `python main.py` to run the program.
 
-The program requires two differnet files to actually run:
+The program requires two different files to actually run:
 `pages.csv` and `authDetails.json`
 
 `pages.csv` is just a list of all the page ID's separated by a comma.
