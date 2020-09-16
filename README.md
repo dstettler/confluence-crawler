@@ -12,7 +12,7 @@ The program requires two differnet files to actually run:
 `pages.csv` is just a list of all the page ID's separated by a comma.
 
 `authDetails.json` is formatted like so
-```json
+```
 {
 	"api-token": "YOUR API TOKEN HERE",
 	"username": "USERNAME/EMAIL OF THE OWNER OF THE API TOKEN",
